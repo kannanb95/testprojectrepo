@@ -16,7 +16,7 @@ docker push kannanb95/testproject:latest
 #stop the container
 docker stop projectrepo_container
 #remove the container
-docker rm projectrepo_container
+docker container rm projectrepo_container
 #docker container
 docker run -d --name projectrepo_container -p 8080:80 testproject:latest
 
