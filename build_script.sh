@@ -15,5 +15,5 @@ docker login
 docker push kannanb95/testproject:latest
 
 #docker container
-docker run -d -p 8088:80 rbkannan95/testproject
+docker run -d --name projectrepo_container -p 8080:80 testproject:latest
 
