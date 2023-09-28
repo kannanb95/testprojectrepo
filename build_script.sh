@@ -41,7 +41,7 @@ docker stop projectrepo_container
 #remove the container
 docker container rm projectrepo_container
 #docker container
-docker run -d --name projectrepo_container -p 8080:80 testproject:"$version"
+docker run -d --name projectrepo_container -p 8080:80 testproject
 else
 	echo "No changes on $REMOTE/$BRANCH"
 fi 
