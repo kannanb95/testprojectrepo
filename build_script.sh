@@ -4,7 +4,7 @@
 #git clone https://github.com/kannanb95/testprojectrepo.git
 
 #to the cloned repo dir
-cd testprojectrepo
+cd /home/kannan/testprojectrepo
 #tagging the every changes with commit ID
 VERSION=$(git log -1 --pretty=%h)
 REPO="kannanb95/testprojectrepo:"
